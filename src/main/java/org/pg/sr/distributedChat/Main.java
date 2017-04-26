@@ -11,18 +11,6 @@ public class Main extends ReceiverAdapter {
     public static void main(String[] args) throws Exception {
         System.setProperty("java.net.preferIPv4Stack","true");
         ManagementGUI gui = new ManagementGUI();
-        ManagementController adapter = new ManagementController(gui);
-//        try {
-//            JChannel channel = new JChannel();
-//            channel.setReceiver(new Main());
-//            channel.setName("Nick1");
-//            channel.connect("Cluster1");
-//            channel.send(new Message(null, null, "Hello"));
-//            Thread.sleep(100000);
-//            channel.close();
-//        } catch (Exception e) {
-//            e.printStackTrace();
-//        }
     }
 
     @Override
